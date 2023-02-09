@@ -29,7 +29,7 @@ show_usage (void)
 	fprintf (stderr, "\nUsage: %s [options]\n", my_name);
 	fprintf (stderr, "this is a test client, which just sleeps in its process_cb to simulate cpu load\n");
 	fprintf (stderr, "options:\n");
-	fprintf (stderr, "        -t, --timeout         Wait timeout in seconds\n");
+	fprintf (stderr, "        -t, --timeout         Wait timeout in microseconds\n");
 	fprintf (stderr, "        -h, --help            Display this help message\n");
 	fprintf (stderr, "        --version             Output version information and exit\n\n");
 	fprintf (stderr, "For more information see http://jackaudio.org/\n");
